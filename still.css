@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.banner{
+    height: 100vh;
+    width: 100%;s
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: aliceblue;
+    color: rgb(221, 219, 214);
+    font-size: 15px;
+}
+.content h1{
+    font-size: 65px;
+}
+.content p{
+    margin: 25px auto;
+    text-shadow: 1cm;
+}
+.banner{
+    background-image:url(bilgisayar.jpg.jpg);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: rgb(235, 242, 248);
+    text-align: center;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: azure;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: rgb(73, 96, 129);
+    font-size: 17px; 
+}
